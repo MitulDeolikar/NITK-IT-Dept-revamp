@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&family=Lobster&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    /* color: white; */
+    
+}
+.faculty{
+    border-bottom: 2px solid rgba(90, 220, 78, 0.807);
+    background-color: #292929;
+    border-radius: 5px;
+}
+ main{
+    background-color: white;
+    
+} 
+
+header{
+    
+    flex-wrap: wrap; 
+    background-color: #333;
+}  
+.navbar {
+    display: flex;
+    flex-direction: column;
+    
+    /* align-items: center; */
+    justify-content: end; 
+}
+
+.navbar h2 {
+    
+    color: white;
+    margin: auto;
+    /* margin-left: px; */
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 12px 15px;
+    text-decoration: none;
+    
+}
+
+.navbar a:hover {
+    /* background-color: #272626; */
+    font-weight: bolder;
+    color: rgba(90, 220, 78, 0.807);
+}
+.logo{
+    filter: invert(1);
+    height: 80px;
+    width: 80px;
+    margin-left: -19px;
+    margin-top: -19px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.logo{
+    border: 2px solid black;
+}
+.logo:hover{
+    border: 2px solid rgba(90, 220, 78, 0.807) ;
+}
+.searchbar{
+    float: right;
+    height: 30px;
+    width: 30px;
+}
+.heading_in_nav{
+    margin: 20px;
+    margin-bottom: -30px;
+}
+.links_in_nav{
+    margin: 30px;
+}
+.hag{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* text-align: center; */
+    margin: 20px;
+    border: 1px solid  green;
+    padding: 15px;
+}
+.hag h3{
+    background-color: rgba(88, 202, 78, 0.807);
+    color: white;
+    margin-right: 10px;
+    padding: 10px;
+}
+.hag a{
+    text-decoration: none;
+    color: rgba(56, 169, 46, 0.807);
+}
+.hag a:hover{
+    color:  rgba(37, 108, 31, 0.807);
+    font-weight: bold;
+}
+.assc{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: left;
+    /* text-align: center; */
+    margin: 20px;
+    border: 1px solid green;
+    padding: 15px;
+   
+}
+.assc h3{
+    background-color: rgba(90, 220, 78, 0.807);
+    color: white;
+    margin-right: 10px;
+    padding: 10px;
+}
+.assc a{
+    text-decoration: none;
+    color: rgba(56, 169, 46, 0.807);
+}
+.assc a:hover{
+    color:  rgba(37, 108, 31, 0.807);
+    font-weight: bold;
+}
+.assistant{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: left;
+    /* text-align: center; */
+    margin: 20px;
+    border: 1px solid green;
+    padding: 15px;
+}
+.assistant h3{
+    background-color: rgba(90, 220, 78, 0.807);
+    color: white;
+    margin-right: 10px;
+    padding: 10px;
+
+}
+.assistant a{
+    text-decoration: none;
+    color: rgba(56, 169, 46, 0.807);
+}
+.assistant a:hover{
+    color:  rgba(37, 108, 31, 0.807);
+    font-weight: bold;
+}
+i{
+    margin: 6px;
+}
+/* .fa-solid fa-envelope{
+    margin: 10px;
+}
+.fa-solid fa-phone{
+    margin: 10px;
+}
+.fa-solid fa-building-user{
+    margin: 10px;
+} */
+ #1{
+    flex-basis: 33%;
+} 
+main img{
+    border: 2px solid black;
+}
+main img:hover{
+    border: 2px solid rgba(90, 220, 78, 0.807);
+}
+footer {
+    display: flex; /* Use flexbox to arrange children side by side */
+    justify-content: space-between; /* Spread the children out */
+    /* align-items: center; Center children vertically */
+    background-color: #333;
+    color: white;
+    padding: 20px; /* Add padding for spacing */
+  }
+  footer h3{
+    color: rgba(90, 220, 78, 0.807);
+  }
+  
+  /* Style individual sections */
+  .abt, .hod, .social,.location{
+    flex: 1; /* Distribute available space equally among the sections */
+    margin: 10px; /* Add margin for spacing */
+  }
+  
+footer a{
+    text-decoration: none;
+    filter: invert(1);
+    margin: 10px;
+    size: 10px;
+}
+footer a:hover{
+    size:15px;
+    
+}
+

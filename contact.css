@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&family=Lobster&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    /* color: white; */
+    
+   
+}
+.contact{
+    border-bottom: 2px solid rgba(90, 220, 78, 0.807);
+    background-color: #292929;
+    border-radius: 5px;
+}
+ main{
+    background-color: white;
+    
+} 
+
+  header{
+    
+    flex-wrap: wrap; 
+    background-color: #333;
+}  
+.logo{
+    border: 2px solid black;
+}
+.logo:hover{
+    border: 2px solid rgba(90, 220, 78, 0.807) ;
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    
+    /* align-items: center; */
+    justify-content: end; 
+}
+
+.navbar h2 {
+    
+    color: white;
+    margin: auto;
+    /* margin-left: px; */
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 12px 15px;
+    text-decoration: none;
+    
+}
+
+.navbar a:hover {
+    /* background-color: #272626; */
+    font-weight: bolder;
+    color: rgba(90, 220, 78, 0.807);
+}
+.logo{
+    filter: invert(1);
+    height: 80px;
+    width: 80px;
+    margin-left: -19px;
+    margin-top: -19px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.heading_in_nav{
+    margin: 20px;
+    margin-bottom: -30px;
+}
+.links_in_nav{
+    margin: 30px;
+}
+footer {
+    display: flex; /* Use flexbox to arrange children side by side */
+    justify-content: space-between; /* Spread the children out */
+    /* align-items: center; Center children vertically */
+    background-color: #333;
+    color: white;
+    padding: 20px; /* Add padding for spacing */
+  }
+  footer h3{
+    color: rgba(90, 220, 78, 0.807);
+  }
+  
+  /* Style individual sections */
+  .abt, .hod, .social,.location{
+    flex: 1; /* Distribute available space equally among the sections */
+    margin: 10px; /* Add margin for spacing */
+  }
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    margin-bottom: 10px;
+} 
+.container h3{
+    background-color: rgba(77, 201, 66, 0.807) ;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.HOD{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    /* background-color:  rgba(90, 220, 78, 0.807); */
+    width: 300px;
+    height: 500px;
+    
+    
+}
+.HOD img{
+    border: 3px solid black;
+}
+.HOD img:hover{
+    border: 3px solid  rgba(41, 185, 28, 0.807) ;
+}
+.HOD a{
+    text-decoration: none;
+    color: rgba(41, 185, 28, 0.807);
+}
+.HOD a:hover{
+    color:  rgba(22, 137, 12, 0.976);
+    font-weight: bold;
+}
+
+.vertical-line {
+    border-left: 1px solid #000; /* You can adjust the color and thickness as needed */
+    height: 600px;
+    margin: 0 auto; /* Center the line on the page if necessary */
+  }
+  
+.query{
+    margin-right: 70px;
+    align-items: start;
+   
+}
+.query h3{
+    margin-top: 38px;
+}
+.query input{
+    height: 30px;
+    width: 300px;
+    outline: none;
+    border-radius: 20px;
+   
+    padding: 5px
+}
+.query input:hover{
+    border: 2px solid  rgba(90, 220, 78, 0.807);
+}
+#submit{
+    background-color: rgba(90, 220, 78, 0.807);
+    border-radius: 20px;
+    width: 200px;
+    text-decoration: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+#submit:hover{
+    background-color: rgb(65, 160, 56);
+    
+}
+#message{
+    width: 370px;
+    height: 150px;
+   padding: 10px;
+   border-radius: 20px;
+    
+}
+#message:hover{
+    border: 2px solid  rgba(90, 220, 78, 0.807)
+}
+footer a{
+    text-decoration: none;
+    filter: invert(1);
+    margin: 10px;
+    size: 10px;
+}
+footer a:hover{
+    size:15px;
+    
+}

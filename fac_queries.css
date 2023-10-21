@@ -1,0 +1,15 @@
+@media screen and (max-width:670px){
+    .hag{
+        flex-direction: column;
+        border: none;
+    }
+    .assc{
+        flex-direction: column;
+        border: none;
+
+    }
+    .assistant{
+        flex-direction: column;
+        border: none;
+    }
+}

@@ -1,0 +1,90 @@
+  @media screen and (max-width:600px) {
+      .navbar {
+          justify-content: center;
+          /* Center vertically */
+          align-items: center;
+          /* Center horizontally */
+          width: 100%;
+          /* Set the width of the navbar to 100% */
+      }
+
+      header {
+          width: 100%;
+      }
+      
+  }
+   @media screen and ( max-width:650px) {
+    .navbar a{
+        width: 100%;
+    }
+  } 
+
+  @media screen and (max-width :1029px) {
+
+      .stats1,
+      .stats2 {
+          flex-direction: column;
+      }
+
+      /* .stats1,.stats2 img{
+        height: 200px;
+        width: 275px;
+    } */
+  }
+
+  @media screen and (max-width:600px) {
+      hr {
+          display: none;
+      }
+  }
+
+  @media screen and (max-width:850px) {
+      .container1 {
+          flex-direction: column;
+      }
+
+  }
+
+  @media screen and (max-width:1000px) {
+      .container2 {
+          flex-direction: column;
+      }
+
+  }
+
+  @media screen and (max-width:583px) {
+      footer {
+          flex-direction: column;
+      }
+  }
+
+  @media screen and (max-width:760px) {
+      .container2 {
+          flex-direction: column;
+      }
+  }
+
+@media screen and (max-width:670px){
+    .hag{
+        flex-direction: column;
+        border: none;
+    }
+    .assc{
+        flex-direction: column;
+        border: none;
+
+    }
+    .assistant{
+        flex-direction: column;
+        border: none;
+    }
+}
+  @media screen and (max-width:635px) {
+      .container {
+          flex-direction: column;
+      }
+
+      .vertical-line {
+          display: none;
+      }
+  }
