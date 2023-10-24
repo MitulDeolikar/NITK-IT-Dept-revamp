@@ -14,5 +14,6 @@ The Placements page shows the statistics of placements and packages of the B.Tec
 The Contact Page gives the contact details of the Head of the Department along with the a form by which we can present our queries to the HOD<br>
 <br>
 Each page consists of a header and footer with important social media links and location of the department along with HOD details<br><br>
-The Home Page also contains a search bar and a help bot which takes you to the Contact Us Page
+The Home Page also contains a search bar and a help bot which takes you to the Contact Us Page<br><br>
+To view the webpage paste the url https://mituldeolikar.github.io/NITK-IT-Dept-revamp/home in the browser
 
